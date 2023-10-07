@@ -1,0 +1,24 @@
+# ------ dataset_path ------
+data_path: '/data/Public/Datasets/SUN397/'
+
+# ------ Hyperparamters ------
+alpha: 0.5
+search_low: 0
+search_high: 1
+search_step: 50
+
+# ------ Basic Config ------
+dataset: 'sun397'
+shots: 16
+backbone: 'RN50' # RN50 RN101 ViT-B/32 ViT-B/16
+
+lr: 0.001
+train_epoch: 100
+batch_size: 128
+
+num_classes: 397
+
+num_threads: 8
+save_interval: 50
+
+cache_dir: './model/clip'

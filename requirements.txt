@@ -1,0 +1,17 @@
+tqdm
+json
+yaml
+regex
+matplotlib
+gdown
+ftfy
+flake8
+yapf
+isort
+yacs
+tb-nightly
+future
+scipy
+scikit-learn
+wilds
+tabulate
